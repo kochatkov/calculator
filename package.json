@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "calculator",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc App.tsx && node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kochatkov/calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kochatkov/calculator/issues"
+  },
+  "homepage": "https://github.com/kochatkov/calculator#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "jest": "^26.4.2",
+    "prettier": "2.1.2",
+    "typescript": "^4.0.3"
+  }
+}
